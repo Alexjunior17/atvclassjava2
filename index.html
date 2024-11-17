@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <dialog>
+    <form action="segpag.html">
+    <div id="nome">Nome</div>
+    <input type="text" id="nometxt" oninput="salvarnome()">
+
+
+   <div id="email">Email</div>
+   <input type="text" id="emailtxt" oninput="salvaremail()">
+   
+    <div id="cpf">CPF</div>
+    <input type="text" id="cpfnum" oninput="mascara_cpf()">
+
+    <div id="telefone">Telefone</div>
+    <input type="text" id="telefonenum" oninput="mascara_telefone()">
+
+    <div id="senha">Senha</div>
+    <input type="text" id="senhatxt" oninput="salvarsenha()">
+    <input type="submit">
+     </form>
+    </dialog>
+</body>
+</html>
